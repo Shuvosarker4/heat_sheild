@@ -1,0 +1,90 @@
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  color-scheme: light;
+
+  --color-primary: #1455A4;
+  --color-primary-content: #FFFFFF;
+
+  --color-secondary: #D92323;
+  --color-secondary-content: #FFFFFF;
+
+  --color-accent: #2563EB;
+  --color-accent-content: #FFFFFF;
+
+  --color-neutral: #172B45;
+  --color-neutral-content: #FFFFFF;
+
+  --color-base-100: #FFFFFF;
+  --color-base-200: #F5F7FA;
+  --color-base-300: #E2E8F0;
+  --color-base-content: #172B45;
+
+  --color-info: #2563EB;
+  --color-success: #15803D;
+  --color-warning: #D97706;
+  --color-error: #D92323;
+
+  --radius-box: 0.75rem;
+  --radius-field: 0.5rem;
+  --radius-selector: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background: #F5F7FA;
+  color: #172B45;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  50%,
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes shieldFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-2px) rotate(-5deg);
+  }
+}
+
+@keyframes gradientMove {
+  0%,
+  100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-\[shimmer_3s_ease-in-out_infinite\],
+  .animate-\[shieldFloat_2\.5s_ease-in-out_infinite\],
+  .animate-\[gradientMove_4s_ease_infinite\] {
+    animation: none;
+  }
+}
+
