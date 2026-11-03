@@ -1,8 +1,9 @@
 
+import CompanyLogoMarquee from "../components/CompanyLogoMarquee"
 import FireSafetyCarousel from "../components/FireSafetyCarousel"
-import Hero from "../components/Hero"
+import OurProducts from "../components/OurProducts"
+import OurServices from "../components/OurServices"
 import TextScrollWordReveal from "../components/TextScrollWordReveal"
-import About from "./About"
 
 function Home() {
   return (
@@ -11,19 +12,18 @@ function Home() {
       <FireSafetyCarousel/>
       </section>
 
+      <section className="" id="home">
+      <CompanyLogoMarquee/>
+      </section>
+
+      <section className="" id="services">
+      <OurServices/>
+      </section>
+      <section className="" id="products">
+      <OurProducts/>
+      </section>
+
       <TextScrollWordReveal/>
-
-      <section id="home">
-        <Hero />
-      </section>
-    
-      <section id="about">
-        <About />
-      </section>
-
-      
-      
-      
 
     </>
   )

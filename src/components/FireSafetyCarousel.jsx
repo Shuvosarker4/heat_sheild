@@ -16,6 +16,7 @@ import {
   ShieldAlert,
   Sparkles,
 } from "lucide-react";
+import CompanyLogoMarquee from "./CompanyLogoMarquee";
 
 const slides = [
   {
@@ -24,7 +25,7 @@ const slides = [
     title: "Protect What",
     highlight: "Matters Most.",
     description:
-      "Advanced fire safety solutions to protect lives, property, and the future of your business.",
+      "",
     image:
       "https://images.pexels.com/photos/21838999/pexels-photo-21838999.jpeg?auto=compress&cs=tinysrgb&w=2000",
     icon: ShieldCheck,
@@ -38,7 +39,7 @@ const slides = [
     title: "Detect Early.",
     highlight: "Act Quickly.",
     description:
-      "Discover fire alarm and smoke detection systems designed to support early warnings and safer environments.",
+      "",
     image:
       "https://images.pexels.com/photos/2704254/pexels-photo-2704254.jpeg?auto=compress&cs=tinysrgb&w=2000",
     icon: BellRing,
@@ -52,7 +53,7 @@ const slides = [
     title: "Be Prepared.",
     highlight: "Stay Protected.",
     description:
-      "Equip your workplace with fire safety equipment and build a stronger culture of prevention.",
+      "",
     image:
       "https://images.pexels.com/photos/21838999/pexels-photo-21838999.jpeg?auto=compress&cs=tinysrgb&w=2000",
     icon: Flame,
@@ -353,6 +354,7 @@ export default function FireSafetyCarousel() {
                     />
                     Safety solutions
                   </span>
+                   {/* <CompanyLogoMarquee/> */}
                 </motion.div>
 
                 {/* Mobile-friendly feature badge */}
@@ -413,6 +415,7 @@ export default function FireSafetyCarousel() {
                   Helping create safer spaces through fire prevention and
                   protection.
                 </p>
+                
 
                 <div className="mt-4 h-1 overflow-hidden rounded-full bg-white/15">
                   <motion.div
@@ -426,11 +429,13 @@ export default function FireSafetyCarousel() {
                     className="h-full rounded-full bg-[#D92323]"
                   />
                 </div>
+                
               </motion.div>
             </div>
           </motion.div>
         </AnimatePresence>
       </div>
+      
 
       {/* Bottom navigation */}
       <div className="absolute bottom-0 left-0 right-0 z-20">
