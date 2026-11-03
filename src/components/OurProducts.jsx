@@ -3,16 +3,23 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+import P1 from "../assets/product/p1.jpg";
+import P2 from "../assets/product/p2.jpg";
+import P3 from "../assets/product/p3.jpg";
+import P4 from "../assets/product/p4.jpg";
+import P5 from "../assets/product/p5.jpg";
+import P6 from "../assets/product/p6.jpg";
+import P7 from "../assets/product/p7.jpg";
 import Logo1 from "../assets/logo.png";
 
 const products = [
-  { id: 1, name: "Simplex Fire Alarm Control Panel", image: Logo1 },
-  { id: 2, name: "TR-PHOTO-W-TRIGA", image: Logo1 },
-  { id: 3, name: "Simplex 4098-9714 Detector", image: Logo1 },
-  { id: 4, name: "S-A4013 Heat Detector", image: Logo1 },
-  { id: 5, name: "TR-PHOTO-T-W TRIGA Detector", image: Logo1 },
-  { id: 6, name: "TR-PULL-SA Manual Call Point", image: Logo1 },
-  { id: 7, name: "Gas Extinguishing Control Panel", image: Logo1 },
+  { id: 1, name: "4100ES Fire Control Unit", image: P1 },
+  { id: 2, name: "4100ES One, Two and Three-Bay Cabinets", image: P2 },
+  { id: 3, name: "4009 IDNet NAC Extender", image: P3 },
+  { id: 4, name: "4009 IDNAC Repeater", image: P4 },
+  { id: 5, name: "4010ES Fire Control Units (Conventional), North America", image: P5 },
+  { id: 6, name: "TrueAlarm Multi-Sensor & Bases", image: P6 },
+  { id: 7, name: "4099-9021 Single Action NO GRIP operation", image: P7 },
   { id: 8, name: "S-A4011 SHIELD Detector", image: Logo1 },
   { id: 9, name: "TR-HEAT-ROR-W TRIGA", image: Logo1 },
   { id: 10, name: "Simplex 4098-9733 Detector", image: Logo1 },

@@ -3,32 +3,36 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import Logo1 from "../assets/logo.png";
+import P3 from "../assets/product/p3.jpg";
+import P4 from "../assets/product/p4.jpg";
+import P5 from "../assets/product/p5.jpg";
+import P6 from "../assets/product/p6.jpg";
 
 const services = [
   {
     id: 1,
     title: "Fire Protection System Design & Consultancy",
-    image: Logo1,
+    image: P3,
   },
   {
     id: 2,
     title: "Fire Detection & Alarm System Installation",
-    image: Logo1,
+    image: P4,
   },
   {
     id: 3,
     title: "Fire Suppression & Extinguishing Systems",
-    image: Logo1,
+    image: P5,
   },
   {
     id: 4,
     title: "Electrical & Lightning Safety",
-    image: Logo1,
+    image: P6,
   },
   {
     id: 5,
     title: "Fire Door & Emergency Exit Solutions",
-    image: "/images/services/fire-door.jpg",
+    image: Logo1,
   },
   {
     id: 6,

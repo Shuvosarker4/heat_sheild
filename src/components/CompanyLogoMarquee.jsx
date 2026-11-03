@@ -1,14 +1,26 @@
 import { useState } from "react";
-import Logo1 from "../assets/logo.png"
+import RSC from "../assets/RSC.jpg"
+import NIRAPAN from "../assets/NIRAPAN.jpg"
+import BFSCD from "../assets/BFSCD.png"
+import LEED from "../assets/LEED.jpg"
+import ISO from "../assets/ISO.jpg"
+import TRIGA from "../assets/TRIGA.jpg"
+import SIEMENS from "../assets/SIEMENS.jpg"
+import HONEYWELL from "../assets/HONEYWELL.jpg"
+import ASICO from "../assets/ASICO.jpg"
 
 // Replace these placeholder names with your actual company logos when ready.
 const companies = [
-  { name: "COMPANY ONE", src: Logo1 },
-  { name: "COMPANY TWO", src: "" },
-  { name: "COMPANY THREE", src: "" },
-  { name: "COMPANY FOUR", src: "" },
-  { name: "COMPANY FIVE", src: "" },
-  { name: "COMPANY SIX", src: "" },
+  { name: "COMPANY ONE", src: RSC },
+  { name: "COMPANY TWO", src: NIRAPAN },
+  { name: "COMPANY THREE", src: BFSCD },
+  { name: "COMPANY FOUR", src: LEED },
+  { name: "COMPANY FIVE", src: ISO },
+  { name: "COMPANY FIVE", src: TRIGA },
+  { name: "COMPANY FIVE", src: SIEMENS },
+  { name: "COMPANY FIVE", src: ASICO },
+  { name: "COMPANY FIVE", src: HONEYWELL },
+  
 ];
 
 function LogoItem({ company }) {
