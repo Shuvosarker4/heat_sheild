@@ -1,7 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "motion/react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { motion, useReducedMotion } from "motion/react";
 
 import Image1 from "../assets/slider/s1.png";
 import Image2 from "../assets/slider/s2.png";
@@ -14,20 +13,12 @@ export default function FireSafetyCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
   const reduceMotion = useReducedMotion();
 
-  const nextSlide = () => {
-    setActiveIndex((current) => (current + 1) % slides.length);
-  };
-
-  const previousSlide = () => {
-    setActiveIndex(
-      (current) => (current - 1 + slides.length) % slides.length
-    );
-  };
-
   useEffect(() => {
     if (reduceMotion) return;
 
-    const timer = window.setInterval(nextSlide, 5000);
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % slides.length);
+    }, 5000);
 
     return () => window.clearInterval(timer);
   }, [reduceMotion]);
@@ -38,7 +29,6 @@ export default function FireSafetyCarousel() {
       className="w-full overflow-hidden bg-[#09182B]"
     >
       <div className="relative w-full overflow-hidden bg-[#09182B]">
-        {/* Fixed-height responsive carousel frame */}
         <div className="relative h-[220px] w-full sm:h-[380px] md:h-[440px] lg:h-[560px] xl:h-[660px]">
           {slides.map((image, index) => (
             <motion.div
@@ -52,11 +42,7 @@ export default function FireSafetyCarousel() {
                 ease: "easeInOut",
               }}
               aria-hidden={activeIndex !== index}
-              className={`absolute inset-0 flex items-center justify-center ${
-                activeIndex === index
-                  ? "pointer-events-auto"
-                  : "pointer-events-none"
-              }`}
+              className="absolute inset-0 flex items-center justify-center"
             >
               <img
                 src={image}
@@ -66,26 +52,6 @@ export default function FireSafetyCarousel() {
               />
             </motion.div>
           ))}
-
-          {/* Previous Button */}
-          <button
-            type="button"
-            onClick={previousSlide}
-            aria-label="Previous image"
-            className="absolute left-2 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-[#09182B]/70 text-white backdrop-blur-md transition hover:bg-[#D92323] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:left-5 sm:h-11 sm:w-11"
-          >
-            <ArrowLeft size={18} />
-          </button>
-
-          {/* Next Button */}
-          <button
-            type="button"
-            onClick={nextSlide}
-            aria-label="Next image"
-            className="absolute right-2 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-white/30 bg-[#09182B]/70 text-white backdrop-blur-md transition hover:bg-[#D92323] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:right-5 sm:h-11 sm:w-11"
-          >
-            <ArrowRight size={18} />
-          </button>
 
           {/* Pagination Dots */}
           <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 rounded-full border border-white/15 bg-[#09182B]/70 px-3 py-2 backdrop-blur-md sm:bottom-5 sm:gap-3 sm:px-4">
