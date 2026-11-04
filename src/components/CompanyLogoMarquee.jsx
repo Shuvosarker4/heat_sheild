@@ -6,8 +6,6 @@ import LEED from "../assets/LEED.jpg"
 import ISO from "../assets/ISO.jpg"
 import TRIGA from "../assets/TRIGA.jpg"
 import SIEMENS from "../assets/SIEMENS.jpg"
-import HONEYWELL from "../assets/HONEYWELL.jpg"
-import ASICO from "../assets/ASICO.jpg"
 
 // Replace these placeholder names with your actual company logos when ready.
 const companies = [
@@ -18,8 +16,7 @@ const companies = [
   { name: "COMPANY FIVE", src: ISO },
   { name: "COMPANY FIVE", src: TRIGA },
   { name: "COMPANY FIVE", src: SIEMENS },
-  { name: "COMPANY FIVE", src: ASICO },
-  { name: "COMPANY FIVE", src: HONEYWELL },
+ 
   
 ];
 
