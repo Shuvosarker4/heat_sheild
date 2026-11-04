@@ -2,53 +2,35 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
-import Logo1 from "../assets/logo.png";
-import P3 from "../assets/product/p3.jpg";
-import P4 from "../assets/product/p4.jpg";
-import P5 from "../assets/product/p5.jpg";
-import P6 from "../assets/product/p6.jpg";
+import S1 from "../assets/service/s1.png";
+import S2 from "../assets/service/s2.png";
+import S3 from "../assets/service/s3.png";
+import S4 from "../assets/service/s4.png";
+
 
 const services = [
   {
     id: 1,
-    title: "Fire Protection System Design & Consultancy",
-    image: P3,
+    title: "Fire Safety Maintenance Contracts",
+    image: S1,
   },
   {
     id: 2,
     title: "Fire Detection & Alarm System Installation",
-    image: P4,
+    image: S2,
   },
   {
     id: 3,
     title: "Fire Suppression & Extinguishing Systems",
-    image: P5,
+    image: S3,
   },
   {
     id: 4,
     title: "Electrical & Lightning Safety",
-    image: P6,
+    image: S4,
   },
-  {
-    id: 5,
-    title: "Fire Door & Emergency Exit Solutions",
-    image: Logo1,
-  },
-  {
-    id: 6,
-    title: "Inspection, Testing & Commissioning",
-    image: "/images/services/inspection.jpg",
-  },
-  {
-    id: 7,
-    title: "Maintenance & Annual Service Contracts (AMC)",
-    image: "/images/services/maintenance.jpg",
-  },
-  {
-    id: 8,
-    title: "Fire Safety Equipment",
-    image: "/images/services/fire-equipment.jpg",
-  },
+  
+  
 ];
 
 const OurServices = () => {
