@@ -7,6 +7,9 @@ import BFSCD from "../assets/BFSCD.png";
 import LEED from "../assets/LEED.jpg";
 import ISO from "../assets/ISO.jpg";
 import TRIGA from "../assets/TRIGA.jpg";
+import NAF from "../assets/NAF.png";
+import BOSCH from "../assets/BOSCH.jpg";
+import SIMPLEX from "../assets/SIMPLEX.jpg";
 import SIEMENS from "../assets/SIEMENS.jpg";
 
 const companies = [
@@ -17,6 +20,9 @@ const companies = [
   { name: "ISO", src: ISO },
   { name: "TRIGA", src: TRIGA },
   { name: "SIEMENS", src: SIEMENS },
+  { name: "NAF", src: NAF },
+  { name: "BOSCH", src: BOSCH },
+  { name: "SIMPLEX", src: SIMPLEX },
 ];
 
 function LogoItem({ company }) {
