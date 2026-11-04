@@ -20,7 +20,7 @@ function Navbar() {
         {/* Company Logo */}
         <div className="navbar-start">
           <a
-            href="#home"
+            href="/"
             aria-label="Heat Shield Engineering home"
             className="flex items-center gap-2 sm:gap-3"
           >
