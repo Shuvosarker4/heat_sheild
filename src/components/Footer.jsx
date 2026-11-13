@@ -152,7 +152,7 @@ function Footer() {
   };
 
   return (
-    <footer className="relative overflow-hidden border-t border-slate-200 bg-gradient-to-br from-white via-[#F5F8FF] to-[#FFF7F7] text-[#172B45]">
+    <footer id="footer" className="scroll-mt-20 relative overflow-hidden border-t border-slate-200 bg-gradient-to-br from-white via-[#F5F8FF] to-[#FFF7F7] text-[#172B45]">
       {/* Decorative backgrounds */}
       <div className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full bg-blue-200/40 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-40 -left-32 h-96 w-96 rounded-full bg-red-100/60 blur-3xl" />

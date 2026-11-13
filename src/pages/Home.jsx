@@ -3,6 +3,7 @@ import CompanyLogoMarquee from "../components/CompanyLogoMarquee"
 import FireSafetyCarousel from "../components/FireSafetyCarousel"
 import OurProducts from "../components/OurProducts"
 import OurServices from "../components/OurServices"
+import ProjectsSection from "../components/ProjectsSection"
 import TextScrollWordReveal from "../components/TextScrollWordReveal"
 
 function Home() {
@@ -18,6 +19,9 @@ function Home() {
 
       <section className="" id="services">
       <OurServices/>
+      </section>
+      <section className="" id="projects">
+        <ProjectsSection/>
       </section>
       <section className="" id="products">
       <OurProducts/>

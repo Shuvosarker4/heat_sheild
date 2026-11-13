@@ -30,7 +30,7 @@ const slides = [
     icon: ShieldCheck,
     tag: "Complete Fire Protection",
     buttonText: "Explore Our Services",
-    href: "/service",
+    href: "/#services",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const slides = [
     icon: BellRing,
     tag: "Advanced Detection",
     buttonText: "Explore Solutions",
-    href: "/product",
+    href: "/#products",
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ const slides = [
     icon: Flame,
     tag: "Fire Safety Equipment",
     buttonText: "View Our Products",
-    href: "/product",
+    href: "/#products",
   },
 ];
 
@@ -323,7 +323,7 @@ export default function FireSafetyCarousel() {
                   </motion.a>
 
                   <motion.a
-                    href="/contact"
+                    href="/#footer"
                     whileHover={reduceMotion ? undefined : { y: -4 }}
                     whileTap={reduceMotion ? undefined : { scale: 0.97 }}
                     className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-lg border border-white/35 bg-white/10 px-5 py-3.5 text-sm font-bold text-white backdrop-blur-md transition-colors hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white min-[420px]:w-auto sm:min-h-14 sm:px-6 sm:text-base"

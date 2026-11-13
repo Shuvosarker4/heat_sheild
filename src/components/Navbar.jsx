@@ -3,12 +3,12 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 
 const navLinks = [
-  { name: "About Us", href: "#about" },
-  { name: "Our Service", href: "#services" },
-  { name: "Our Product", href: "#products" },
-  { name: "Our Project", href: "#projects" },
-  { name: "Blog", href: "#blog" },
-  { name: "Contact", href: "#contact" },
+  { name: "About Us", href: "/#about" },
+  { name: "Our Service", href: "/#services" },
+  { name: "Our Product", href: "/#products" },
+  { name: "Our Project", href: "/#projects" },
+  { name: "Blog", href: "/#blog" },
+  { name: "Contact", href: "/#footer" },
 ];
 
 function Navbar() {

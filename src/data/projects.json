@@ -1,0 +1,87 @@
+
+[
+  {
+    "id": 1,
+    "slug": "fakir-eco-knitwears-ltd",
+    "number": "01",
+    "title": "FAKIR ECO KNITWEARS LTD.",
+    "shortDescription": "Heat Shield Engineering has undertaken fire detection and fire protection system works at Fakir Exo Knitwears Ltd., supporting the facility's fire safety infrastructure through reliable fire alarm and firefighting solutions.",
+    "projectType": "Fire Detection & Fire Protection System Project",
+    "overview": {
+      "description": "Heat Shield Engineering has undertaken fire detection and fire protection system works at Fakir Exo Knitwears Ltd., supporting the facility's fire safety infrastructure through reliable fire alarm and firefighting solutions.",
+      "additionalDescription": "The project incorporates a Bosch Fire Alarm System for fire detection and alarm notification, alongside a Bristol Black Station Fire Pump System for firefighting water supply and fire protection operations."
+    },
+    "systems": [
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Fire Detection & Alarm System",
+        "system": "Bosch Fire Alarm System",
+        "description": "The fire detection and alarm system is designed to provide early fire detection and prompt notification of potential fire incidents throughout the facility.",
+        "keyComponents": [
+          "Bosch Fire Alarm Control Panel",
+          "Automatic fire detection devices",
+          "Manual call points",
+          "Audible and visual alarm notification devices",
+          "Fire alarm system cabling and associated accessories"
+        ],
+        "scope": [
+          "Fire alarm system installation"
+        ]
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "Fire Protection System",
+        "system": "Bristol Black Station Fire Pump System",
+        "description": "The project incorporates a Bristol Black Station Fire Pump System for firefighting water supply and fire protection operations."
+      }
+    ],
+    "coverImage": "https://i.ibb.co.com/Ys6rDYP/photo-2026-11-13-15-19-40.jpg",
+    "gallery": [
+      "https://i.ibb.co.com/Ys6rDYP/photo-2026-11-13-15-19-40.jpg",
+      "https://i.ibb.co.com/Ys6rDYP/photo-2026-11-13-15-19-40.jpg",
+      "https://i.ibb.co.com/Ys6rDYP/photo-2026-11-13-15-19-40.jpg",
+      "https://i.ibb.co.com/Ys6rDYP/photo-2026-11-13-15-19-40.jpg"
+    ],
+    "createdAt": "2026-11-13"
+  },
+  {
+    "id": 2,
+    "slug": "FAKIR_KNITWEARS_LTD_NEW_BUILDING",
+    "number": "02",
+    "title": "FAKIR KNITWEARS LTD. NEW BUILDING",
+    "shortDescription": "Heat Shield Engineering is associated with the fire safety infrastructure project at Fakir Knitwears Ltd.  New Building, incorporating integrated fire detection, firefighting water supply, and fire-rated door systems.",
+    "projectType": "Fire Detection & Alarm System",
+    "overview": {
+      "description": "The fire detection and alarm system is intended to provide early detection of fire incidents and prompt notification to building occupants and designated personnel."
+    },
+    "systems": [],
+    "coverImage": "https://i.ibb.co.com/8L0JqHSY/photo-2026-11-13-15-43-22.jpg",
+    "gallery": [
+      "https://i.ibb.co.com/8L0JqHSY/photo-2026-11-13-15-43-22.jpg",
+      "https://i.ibb.co.com/8L0JqHSY/photo-2026-11-13-15-43-22.jpg",
+      "https://i.ibb.co.com/8L0JqHSY/photo-2026-11-13-15-43-22.jpg"
+    ],
+    "createdAt": "2026-02-10"
+  },
+  {
+    "id": 3,
+    "slug": "La_Vista_Rooftop_Restaurant",
+    "number": "03",
+    "title": "La Vista Rooftop Restaurant",
+    "shortDescription": "Pacific Tech & Engineering successfully designed and installed a complete fire protection system for Karnaphuli Polyester Products Company, ensuring the facility's compliance with strict safety standards.",
+    "projectType": "Fire Protection System Project",
+    "overview": {
+      "description": "Pacific Tech & Engineering successfully designed and installed a complete fire protection system for Karnaphuli Polyester Products Company, ensuring the facility's compliance with strict safety standards."
+    },
+    "systems": [],
+    "coverImage": "https://i.ibb.co.com/SDMLs23d/photo-2026-11-13-15-44-36.jpg",
+    "gallery": [
+      "https://i.ibb.co.com/SDMLs23d/photo-2026-11-13-15-44-36.jpg",
+      "https://i.ibb.co.com/SDMLs23d/photo-2026-11-13-15-44-36.jpg",
+      "https://i.ibb.co.com/SDMLs23d/photo-2026-11-13-15-44-36.jpg"
+    ],
+    "createdAt": "2026-03-05"
+  }
+]
